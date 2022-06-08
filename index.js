@@ -26,11 +26,11 @@ document.querySelectorAll("img")[1].setAttribute("src", "images/dice" + randomNu
 function rollADice () {
 
   if (randomNumber1 > randomNumber2) {
-    document.querySelector("h1").innerHTML = "🚩"+player1+" wins!";
+    document.querySelector("h1").innerHTML = "🚩"+player1+" WINS!";
   } else if (randomNumber1 === randomNumber2) {
-    document.querySelector("h1").innerHTML = "Draw!";
+    document.querySelector("h1").innerHTML = "DRAW!";
   } else {
-    document.querySelector("h1").innerHTML = player2+" wins! 🚩";
+    document.querySelector("h1").innerHTML = player2+" WINS! 🚩";
   }
 
 }
