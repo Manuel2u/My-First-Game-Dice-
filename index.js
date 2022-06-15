@@ -30,7 +30,7 @@ player1 = player1FirstLetterToUpper + restOfName1;
 
 player2 = player2FirstLetterToUpper + restOfName2;
 
-if (player1.length > 5) {
+if (player1.length > 6) {
   alert("Player name should be only 5 characters maximum.")
 
   function FatalError() {
@@ -43,7 +43,7 @@ if (player1.length > 5) {
 }
 
 
-if (player2.length > 5) {
+if (player2.length > 6) {
   alert("Player name should be only 5 characters maximum.")
 
   function FatalError() {
