@@ -26,6 +26,12 @@
   bottom: 25px;
 }
 
+footer a{
+  text-decoration: none;
+  color: white;
+}
+
+
 body {
   background-color: #646FD4;
 }
