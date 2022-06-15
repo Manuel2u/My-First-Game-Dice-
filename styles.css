@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 .container {
   width: 70%;
   margin: auto;
@@ -9,6 +13,10 @@
   display: inline-block;
   position: relative;
   bottom: 25px;
+}
+
+.dice1,.dice2{
+  margin-top: -25px;
 }
 
 .dice2 {
@@ -27,7 +35,7 @@ h1 {
   margin-top: 10px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 8rem;
+  font-size: 7.6rem;
   color: #4ECCA3;
 }
 
@@ -55,7 +63,13 @@ img {
   width: 15%;
 }
 
-.button {
+.button1{
+  position:absolute;
+  right: 25px;
+  top: 12%;
+}
+
+.button2 {
   position: absolute;
   left: 45%;
   margin-top: 10px;
@@ -79,7 +93,7 @@ footer {
     margin: 10px 0 30px;
     font-family: 'Lobster', cursive;
     text-shadow: 5px 0 #232931;
-    font-size: 4rem;
+    font-size: 2.7rem;
     color: #4ECCA3;
   }
 
@@ -92,16 +106,26 @@ footer {
     width: 40%;
   }
 
-footer{
-  margin-top: 50px;
+.diceSection{
+  margin-top: 25px;
 }
 
-.button{
+
+footer{
+  margin-top: 95px;
+}
+
+.button2{
   position: relative;
   left: 2%;
+  top: 10px;
 }
 
-
+.button1{
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
 
 
 }
