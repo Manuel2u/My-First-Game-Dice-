@@ -131,12 +131,12 @@ footer a{
 .button2{
   position: relative;
   left: 2%;
-  top: 10px;
+  bottom: 550%;
 }
 
 .button1{
   position: absolute;
-  top: 40%;
+  top: 47%;
   left: 30%;
 }
 
