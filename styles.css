@@ -115,6 +115,13 @@ footer{
   margin-top: 95px;
 }
 
+
+footer a{
+  text-decoration: none;
+  color: white;
+}
+
+
 .button2{
   position: relative;
   left: 2%;
