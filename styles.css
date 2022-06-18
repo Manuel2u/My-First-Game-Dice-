@@ -65,25 +65,20 @@ img {
   margin-top: 20px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
-  position: relative;
   width: 15%;
 }
 
 .button1{
-  position:absolute;
-  right: 25px;
-  top: 12%;
+  margin-top: 60px;
 }
 
-.button2 {
-  position: absolute;
-  left: 45%;
-  margin-top: 10px;
+.button2{
+  margin-top: -88px;
 }
 
 .btn:hover {
   background: #30e3cb;
-  background-image: linear-gradient(top, bottom, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to, bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
 
@@ -118,7 +113,7 @@ footer {
 
 
 footer{
-  margin-top: 140px;
+  margin-top: 115px;
 }
 
 
@@ -126,28 +121,6 @@ footer a{
   text-decoration: none;
   color: white;
 }
-
-
-.button2{
-  position: relative;
-  left: 2%;
-  bottom: 550%;
-}
-
-
-
-.button1{
-  position: absolute;
-  top: 56%;
-  left: 10%;
-}
-
-.buttonSection{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 
 
 }
