@@ -134,11 +134,20 @@ footer a{
   bottom: 550%;
 }
 
+
+
 .button1{
   position: absolute;
-  top: 47%;
-  left: 30%;
+  top: 49%;
+  left: 10%;
 }
+
+.buttonSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 
 
 }
